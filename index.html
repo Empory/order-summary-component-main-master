@@ -24,13 +24,15 @@
     .attribution a {
       color: hsl(228, 45%, 44%);
     }
+   
   </style>
 </head>
 
-<body class="bg-[rgb(214,225,255)] font-display h-full flex justify-center flex-col items-center">
-  <div class=" max-w-xs py-10 rounded-2xl overflow-hidden ">
+
+<body class="bg-[rgb(214,225,255)] min-h-screen h-full font-display flex justify-center flex-col items-center">
+  <div class=" max-w-sm rounded-2xl  overflow-hidden ">
     <img src="./images/illustration-hero.svg" alt="">
-    <div class="bg-white flex flex-col items-center ">
+    <div class="bg-white flex flex-col items-center pb-5">
       <h1 class="pt-7 pb-4 text-xl font-bold text-[#1f2f56]">Order Summary</h1>
       <p class="text-[#7280a7] px-7 text-center">
         You can now listen to millions of songs, audiobooks, and podcasts on any
@@ -42,12 +44,12 @@
           <h6 class="font-bold pb-1">Annual Plan</h6>
           <p>$59.99/year</p>
         </div>
-        <a href="#" class="ml-16 underline">Change</a>
+        <a href="#" class="ml-16 underline text-[#3829E0]  cursor-pointer hover:text-[#776DF1] hover:no-underline transition-all duration-300 ease-in-out">Change</a>
       </div>
       <button
-        class="bg-[#3829e0] py-2 px-16 hover:bg-blue-700 transition-colors rounded-lg mb-5 shadow-2xl text-white">Proceed
+        class="bg-[#3829e0] py-2  px-16 hover:bg-blue-700 transition-colors rounded-lg shadow-2xl text-white">Proceed
         to Payment</button>
-      <a href="#" class="pb-5">Cancel Order</a>
+      <a href="#"  class="text-[#7280a7] font-bold pt-2  hover:text-[#1f2f56]">Cancel Order</a>
     </div>
   </div>
 
